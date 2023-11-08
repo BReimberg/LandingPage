@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    img {
+        border-radius: 50%;
+    }
+    nav {
+        display: flex;
+        gap: 32px;
+        a {
+            color: #FFF2E7;
+            font-size: 18px;
+        }
+
+        a:hover {
+            color: rgba(236, 214, 196, 0.85);
+        }
+    }
+}
